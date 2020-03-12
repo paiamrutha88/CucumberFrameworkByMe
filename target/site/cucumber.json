@@ -1,0 +1,358 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 131502935,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "maths-operations;add-two-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 207422513,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60330176,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I have number 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 14
+                }
+              ],
+              "location": "MathsStepsDef.num1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210763,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I have number 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 14
+                }
+              ],
+              "location": "MathsStepsDef.num1(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164568,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on add button",
+            "match": {
+              "location": "MathsStepsDef.add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1744809,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User selects age category",
+            "match": {
+              "location": "MathsStepsDef.selectAge(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Age"
+                ]
+              },
+              {
+                "cells": [
+                  "below 18"
+                ]
+              },
+              {
+                "cells": [
+                  "Above 18"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308606,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User selects state and country",
+            "match": {
+              "location": "MathsStepsDef.selectStateAndCountry(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "State",
+                  "Country"
+                ]
+              },
+              {
+                "cells": [
+                  "KA",
+                  "India"
+                ]
+              },
+              {
+                "cells": [
+                  "AZ",
+                  "US"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182854,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I get result",
+            "match": {
+              "location": "MathsStepsDef.result()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@dataproviders"
+          },
+          {
+            "name": "@add"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 676559,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "maths-operations;add-two-numbers;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 32437607,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 245088,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I have number 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "MathsStepsDef.num1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167455,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I have number 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "MathsStepsDef.num1(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123186,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on add button",
+            "match": {
+              "location": "MathsStepsDef.add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232577,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User selects age category",
+            "match": {
+              "location": "MathsStepsDef.selectAge(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Age"
+                ]
+              },
+              {
+                "cells": [
+                  "below 18"
+                ]
+              },
+              {
+                "cells": [
+                  "Above 18"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233219,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User selects state and country",
+            "match": {
+              "location": "MathsStepsDef.selectStateAndCountry(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "State",
+                  "Country"
+                ]
+              },
+              {
+                "cells": [
+                  "KA",
+                  "India"
+                ]
+              },
+              {
+                "cells": [
+                  "AZ",
+                  "US"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116449,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I get result",
+            "match": {
+              "location": "MathsStepsDef.result()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@dataproviders"
+          },
+          {
+            "name": "@add"
+          }
+        ]
+      }
+    ],
+    "name": "Maths operations",
+    "description": "",
+    "id": "maths-operations",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/test/CucumberProject/Math.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      },
+      {
+        "name": "@dataproviders",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 9
+        }
+      }
+    ]
+  }
+]

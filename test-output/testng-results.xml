@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I have number 2 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I have number 3 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on add button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User selects age category (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User selects state and country (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I get result (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I have number 5 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I have number 5 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on add button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User selects age category (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User selects state and country (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I get result (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="709" started-at="2020-02-24T06:08:54Z" finished-at="2020-02-24T06:08:55Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.CucumberProject.runner.TestNgRunner@548e7350]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="709" started-at="2020-02-24T06:08:54Z" finished-at="2020-02-24T06:08:55Z">
+      <class name="com.test.CucumberProject.runner.TestNgRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.test.CucumberProject.runner.TestNgRunner@548e7350]" name="setUpClass" is-config="true" duration-ms="156" started-at="2020-02-24T11:38:54Z" finished-at="2020-02-24T11:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.CucumberProject.runner.TestNgRunner@548e7350]" name="runScenario" duration-ms="442" started-at="2020-02-24T11:38:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-24T11:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add two numbers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Maths operations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I have number 2 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I have number 3 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on add button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User selects age category (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User selects state and country (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I get result (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.CucumberProject.runner.TestNgRunner@548e7350]" name="runScenario" duration-ms="43" started-at="2020-02-24T11:38:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-24T11:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add two numbers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Maths operations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I have number 5 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I have number 5 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on add button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User selects age category (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User selects state and country (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I get result (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.test.CucumberProject.runner.TestNgRunner@548e7350]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2020-02-24T11:38:55Z" finished-at="2020-02-24T11:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.test.CucumberProject.runner.TestNgRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
